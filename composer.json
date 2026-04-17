@@ -1,27 +1,28 @@
 {
   "name": "innovatecraftdev/logs",
-  "description": "Access logs from the CP",
-  "version": "5.0.1",
+  "description": "Access logs from the CP. Originally created by Ether Creative for Craft CMS 4.",
+  "version": "5.1.0",
   "type": "craft-plugin",
-  "minimum-stability": "dev",
+  "license": "MIT",
+  "minimum-stability": "stable",
   "require": {
-    "craftcms/cms": "^5.0.0 || ^4.0.0"
+    "craftcms/cms": "^5.0.0"
   },
   "autoload": {
     "psr-4": {
-      "ether\\logs\\": "src/"
+      "innovatecraftdev\\logs\\": "src/"
     }
   },
   "support": {
-    "issues": "https://github.com/ethercreative/logs"
+    "issues": "https://github.com/InnovateCraftDev/logs"
   },
   "extra": {
     "handle": "logs",
     "name": "Logs",
-    "developer": "Ether Creative",
-    "developerUrl": "https://ethercreative.co.uk",
+    "original-developer": "Ether Creative",
+    "original-developerUrl": "https://ethercreative.co.uk",
 
-    "class": "ether\\logs\\Logs",
+    "class": "innovatecraftdev\\logs\\Logs",
     "schemaVersion": "3.0.0"
   }
 }
