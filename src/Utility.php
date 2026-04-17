@@ -1,6 +1,6 @@
 <?php
 
-namespace ether\logs;
+namespace innovatecraftdev\logs;
 
 use Craft;
 use Twig\Error\LoaderError;
@@ -23,7 +23,7 @@ class Utility extends \craft\base\Utility
 
 	public static function iconPath (): null|string
 	{
-		return Craft::getAlias('@ether/logs/utility_icon.svg');
+		return Craft::getAlias('@innovatecraftdev/logs/utility_icon.svg');
 	}
 
 	/**
