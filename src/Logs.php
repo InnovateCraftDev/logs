@@ -1,6 +1,6 @@
 <?php
 
-namespace ether\logs;
+namespace innovatecraftdev\logs;
 
 use craft\base\Plugin;
 use craft\events\RegisterComponentTypesEvent;
