@@ -21,6 +21,8 @@
     "name": "Logs",
     "original-developer": "Ether Creative",
     "original-developerUrl": "https://ethercreative.co.uk",
+    "developer": "InnovateCraftDev",
+    "developerUrl": "https://github.com/InnovateCraftDev",
 
     "class": "innovatecraftdev\\logs\\Logs",
     "schemaVersion": "3.0.0"
